@@ -1,0 +1,6 @@
+framework module Pods_testSPM_testSPMUITests {
+  umbrella header "Pods-testSPM-testSPMUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

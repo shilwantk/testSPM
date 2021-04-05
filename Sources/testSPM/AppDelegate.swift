@@ -4,9 +4,11 @@
 //
 //  Created by k on 05/04/21.
 //
-
+#if os(iOS)
 import UIKit
+#endif
 
+#if canImport(UIKit)
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -33,4 +35,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+#endif
 

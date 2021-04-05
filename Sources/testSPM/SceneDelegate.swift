@@ -5,8 +5,11 @@
 //  Created by k on 05/04/21.
 //
 
+#if os(iOS)
 import UIKit
+#endif
 
+#if canImport(UIKit)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
@@ -49,4 +52,4 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
 }
-
+#endif
