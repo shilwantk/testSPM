@@ -19,7 +19,8 @@ let package = Package(
         .target(
             name: "testSPM",
             dependencies: [],
-            path: "Sources"
+            path: "Sources",
+            exclude: ["Sources/testSPM/ViewController.swift"]
          ),
         .testTarget(
             name: "testSPMTests",
